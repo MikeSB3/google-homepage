@@ -1,3 +1,8 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
 .container {
     border: 2px solid indianred;
     display: flex;
@@ -11,17 +16,21 @@
 .nav  {
     border: 2px solid yellow;
     width: 100%;
-    display: inline;
 }
 
 .nav ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
+    display: inline;
 }
 
 .nav ul li {
     display: inline;
+}
+
+.right-nav {
+    float: right;
 }
 
 .logo {
@@ -50,14 +59,44 @@
     width: 100%;
     position: absolute;
     bottom: 0;
+    text-align: center;
 }
 
 .footer ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
+    display: inline;
 }
 
 .footer ul li {
     display: inline;
+}
+
+.div-footer-left {
+    display: inline-block;
+    float: left;
+    width: 33%;
+    border: 2px solid black;
+}
+
+.footer-left {
+    float: left;
+}
+
+.div-footer-middle {
+    display: inline-block;
+    width: 33%;
+    border: 2px solid black;
+}
+
+.div-footer-right {
+    display: inline-block;
+    float: right;
+    width: 33%;
+    border: 2px solid black;
+}
+
+.footer-right {
+    float: right;
 }
